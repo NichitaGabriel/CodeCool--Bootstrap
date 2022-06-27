@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <style>
+        :root {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+    <title>Bootstrap Website</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand me-2" href="home.html">
+                <img src="resources/img/logoipsum-logo-2.svg" height="56" alt="Blog Logo" loading="lazy" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex flex-column justify-content-center align-items-center vh-100" data-aos="fade-down">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/1350x550" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/1350x550" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/1350x550" class="d-block" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="mt-5">
+            <h1>Scroll Down</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+            <div class="col" data-aos="fade-right">
+                <div class=" card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center" data-aos="fade-left">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias distinctio ullam rerum
+                    necessitatibus? Quod cumque quos quas illum aspernatur quidem quia dolorem ab necessitatibus ratione
+                    a et, fuga minima cum provident laborum voluptate atque! Praesentium, illo quia voluptates
+                    asperiores quis aliquam omnis minus eum velit temporibus iusto, excepturi, sapiente repellendus!</p>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center" data-aos="fade-right">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempora facilis ullam animi quasi
+                    tenetur doloremque. Nobis ad sint vel dolor ut voluptatibus id consectetur deserunt dicta dolorum
+                    velit eveniet rem nulla aliquid, minus voluptates quibusdam laudantium! Vitae culpa quisquam enim
+                    debitis fugit corporis sint, et assumenda dicta eligendi autem.</p>
+            </div>
+
+            <div class="col" data-aos="fade-left">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="d-flex flex-row justify-content-center align-items-baseline mt-5 mb-5">
+            <div class="d-flex flex-column">
+                <div class="card d-flex w-75">
+                    <div class="card-body">
+                        <h5 class="card-title">INTEGRITY</h5>
+                        <p class="text-truncate">Know and do what is right.</p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFirst" aria-expanded="false" aria-controls="collapseExample">
+                            Read More
+                        </button>
+                        <div class="collapse" id="collapseFirst">
+                            <div class="card card-body">
+                                Know and do what is right.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="card d-flex w-75">
+                    <div class="card-body">
+                        <h5 class="card-title">RESPECT</h5>
+                        <p class="text-truncate">Treating others the way you want to be treated.</p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSecond" aria-expanded="false" aria-controls="collapseExample">
+                            Read More
+                        </button>
+                        <div class="collapse" id="collapseSecond">
+                            <div class="card card-body">
+                                Treating others the way you want to be treated.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="card d-flex w-75">
+                    <div class="card-body">
+                        <h5 class="card-title">RESPONSIBILITY</h5>
+                        <p class="text-truncate">Embrace opportunities to contribute.</p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThird" aria-expanded="false" aria-controls="collapseExample">
+                            Read More
+                        </button>
+                        <div class="collapse" id="collapseThird">
+                            <div class="card card-body">
+                                Embrace opportunities to contribute.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="card d-flex w-75">
+                    <div class="card-body">
+                        <h5 class="card-title">SPORTSMANSHIP</h5>
+                        <p class="text-truncate">Bring your best to all competition.</p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFourth" aria-expanded="false" aria-controls="collapseExample">
+                            Read More
+                        </button>
+                        <div class="collapse" id="collapseFourth">
+                            <div class="card card-body">
+                                Bring your best to all competition.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="card d-flex w-75">
+                    <div class="card-body">
+                        <h5 class="card-title">LEADERSHIP</h5>
+                        <p class="text-truncate">Serve the common good.</p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseExample">
+                            Read More
+                        </button>
+                        <div class="collapse" id="collapseFifth">
+                            <div class="card card-body">
+                                Serve the common good.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <figure class="text-end">
+            <blockquote class="blockquote">
+                <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+        </figure>
+
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
